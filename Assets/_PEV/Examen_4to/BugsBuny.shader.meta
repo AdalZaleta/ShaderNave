@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 913364b0757ee12468b82a9b2df640ad
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TexuretoLerp: {fileID: 2800000, guid: a600d23657f79b14fa48d64fb9534252, type: 3}
+  - _NormalLerp: {fileID: 2800000, guid: 7b992a4389e056041ab18527547246b9, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
