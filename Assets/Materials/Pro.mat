@@ -35,11 +35,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Textura_Efecto:
-        m_Texture: {fileID: 2800000, guid: 2e2c108c2fd1eef4e8e47bd95ebd2704, type: 3}
+        m_Texture: {fileID: 2800000, guid: aa5fdfadf9e336f4487daaf3e0cb264d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Textura_Invisibilidad:
-        m_Texture: {fileID: 2800000, guid: aa5fdfadf9e336f4487daaf3e0cb264d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2e2c108c2fd1eef4e8e47bd95ebd2704, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_Matcap:
@@ -47,24 +47,24 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Anisotropic_Direction: 0.4108801
-    - _Anisotropic_Intensity: 0.697
-    - _Anisotropic_Power: 0.395
+    - _Anisotropic_Direction: 0.45
+    - _Anisotropic_Intensity: 0.35
+    - _Anisotropic_Power: 0.084
     - _Cutoff: 0.5
-    - _Fresnel_Power: 0.199
-    - _Height: 0.524
-    - _Invisibility_Power: 0.065
+    - _Fresnel_Power: 0.29
+    - _Height: 1
+    - _Invisibility_Power: 0.062
     - _IsMatCap: 0
     - _Normal_Intensity: 0
     - _Refraction_Intesity: 0.01
-    - _Specular_Intensity: 0.031
-    - _Specular_Power: 0.105
+    - _Specular_Intensity: 0.162221
+    - _Specular_Power: 0.1828543
     - _Use_Anisotopic: 1
     - _Use_Normal_Refraction: 0
-    - _Width: 0.13
+    - _Width: 0.15
     m_Colors:
     - _Anisotropic_Colro: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _Color_Efecto: {r: 0.45161915, g: 0.1533019, b: 0.6132076, a: 1}
+    - _Color_Efecto: {r: 0.920085, g: 0.8943129, b: 0.9339623, a: 1}
     - _Fresnel_Color: {r: 0.1951762, g: 0.465355, b: 0.8113208, a: 1}
-    - _Main_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Main_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Specular_Color: {r: 0.7924528, g: 0.235493, b: 0.235493, a: 1}

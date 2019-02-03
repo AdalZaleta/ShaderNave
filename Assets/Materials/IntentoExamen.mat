@@ -18,34 +18,37 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Textura_2:
+        m_Texture: {fileID: 2800000, guid: 67e45cc024b79554ca0f39a90d9dc1d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture_1:
         m_Texture: {fileID: 2800000, guid: 1ecc917ecbf97774891937e4bfca4b37, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _node_9053:
-        m_Texture: {fileID: 2800000, guid: 6a15c03d4fc35de47b6fe6665be66ac6, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Custom_Setings: 0
-    - _Fresnel_Intesnsuty: 0.1958989
     - _Light_Steps: 10
-    - _Normal_Intesity: 0.98
+    - _Normal_Intesity: 1.715
+    - _Outline_Width: 0.19
     - _Specular_Intensity: 0.1234851
     - _Specular_Power: 0.1664403
-    - _Use_AO: 1
-    - _Use_Specular_Map: 1
+    - _Use_AO: 0
+    - _Use_Specular_Map: 0
     m_Colors:
-    - _Color_4: {r: 0.16820933, g: 0.5660378, b: 0.33078343, a: 1}
-    - _Color_5: {r: 0.5660378, g: 0.47564495, b: 0.13616945, a: 1}
-    - _Color_6: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_Camisas: {r: 0.6431373, g: 0.2588235, b: 0.3215686, a: 1}
+    - _Color_Camisas: {r: 0.735849, g: 0.4269313, b: 0.4773668, a: 1}
+    - _Color_Camisas_sombra: {r: 1, g: 1, b: 1, a: 1}
     - _Color_Chaleco: {r: 0.245283, g: 0.241147, b: 0.2256141, a: 1}
+    - _Color_Chaleco_Sombra: {r: 0.1415094, g: 0.1401744, b: 0.1381719, a: 1}
     - _Color_Cintas: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
-    - _Color_Custom_Shadow: {r: 0.8584906, g: 0.23082057, b: 0.23082057, a: 1}
-    - _Color_Outline: {r: 0.08490568, g: 0.07249023, b: 0.07249023, a: 1}
-    - _Color_Pantalones: {r: 0.5333334, g: 0.4196079, b: 0.2941177, a: 1}
+    - _Color_Cintas_Sombra: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _Color_Custom_Shadow: {r: 0.7830189, g: 0, b: 0, a: 1}
+    - _Color_Outline: {r: 0.4811321, g: 0.17475079, b: 0.17475079, a: 1}
+    - _Color_Pantalones: {r: 0.6603774, g: 0.45749462, b: 0.23362409, a: 1}
+    - _Color_Pantalones_Sombra: {r: 0.3396226, g: 0.2885952, b: 0.232289, a: 1}
     - _Color_Piel: {r: 0.9568628, g: 0.7882354, b: 0.6862745, a: 1}
-    - _Color_Placa_Cinturon: {r: 0.4196079, g: 0.254902, b: 0.1921569, a: 1}
-    - _Custom_Light_Color: {r: 0.9528302, g: 0.9512955, b: 0.92136884, a: 1}
+    - _Color_Piel_Sombra: {r: 0.8584906, g: 0.7146459, b: 0.62767, a: 1}
+    - _Color_Placa_Cinturon: {r: 0.8207547, g: 0.24043258, b: 0.019357419, a: 1}
+    - _Color_Placa_Cinturon_Sombra: {r: 0.3490566, g: 0.2548658, b: 0.2189836, a: 1}
+    - _Custom_Light_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Specular_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
