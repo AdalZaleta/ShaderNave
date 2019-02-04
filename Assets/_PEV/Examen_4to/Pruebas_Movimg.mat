@@ -23,7 +23,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalLerp:
-        m_Texture: {fileID: 2800000, guid: 7b992a4389e056041ab18527547246b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: d6de88dec3c1d0543ad6b75af3b04531, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -35,16 +35,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TexuretoLerp:
-        m_Texture: {fileID: 2800000, guid: a600d23657f79b14fa48d64fb9534252, type: 3}
+        m_Texture: {fileID: 2800000, guid: 63d01bbfb64ede846bf3595784649427, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Gloss: 0.02564103
-    - _Instensty_Lerp: 1.78
-    - _Metallic: 0.01709402
+    - _Gloss: 0
+    - _Metallic: 0
     - _OffsetIntensity: 0.5
+    - _Tolerancia: 0.2
     m_Colors:
-    - _Color: {r: 0.9433962, g: 0.93894625, b: 0.93894625, a: 1}
-    - _Color1: {r: 0.9528302, g: 0.09438412, b: 0.09438412, a: 1}
-    - _Color2: {r: 0, g: 0.07667971, b: 1, a: 1}
-    - _OffsetDirection: {r: 0, g: 0, b: 1, a: 0}
+    - _Color: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+    - _OffsetDirection: {r: 0.5, g: 0.5, b: 1, a: 0}

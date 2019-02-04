@@ -1,7 +1,7 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,cmtg:SF,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,acwp:False,coma:15,ufog:False,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:3138,x:33142,y:33021,varname:node_3138,prsc:2|diff-3305-OUT,spec-3239-OUT,gloss-4176-OUT,normal-6550-OUT,voffset-507-OUT;n:type:ShaderForge.SFN_Tex2d,id:2899,x:31910,y:32616,ptovrint:False,ptlb:Base Color,ptin:_BaseColor,varname:node_2899,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Color,id:5263,x:31910,y:32804,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_5263,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_Multiply,id:7442,x:32140,y:32718,varname:node_7442,prsc:2|A-2899-RGB,B-5263-RGB;n:type:ShaderForge.SFN_Slider,id:3239,x:32433,y:33040,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_3239,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.01709402,max:1;n:type:ShaderForge.SFN_Slider,id:4176,x:32433,y:33145,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:node_4176,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.02564103,max:1;n:type:ShaderForge.SFN_Tex2d,id:4072,x:32401,y:33242,ptovrint:False,ptlb:Normal Map,ptin:_NormalMap,varname:node_4072,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Tex2d,id:344,x:32438,y:33602,ptovrint:False,ptlb:Offset Buffer,ptin:_OffsetBuffer,varname:node_344,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Vector4Property,id:3926,x:32438,y:33791,ptovrint:False,ptlb:Offset Direction,ptin:_OffsetDirection,varname:node_3926,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:1,v3:0,v4:0;n:type:ShaderForge.SFN_Slider,id:9809,x:32281,y:33965,ptovrint:False,ptlb:Offset Intensity,ptin:_OffsetIntensity,varname:node_9809,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:2;n:type:ShaderForge.SFN_NormalVector,id:4988,x:32466,y:34061,prsc:2,pt:False;n:type:ShaderForge.SFN_Multiply,id:507,x:32680,y:33697,varname:node_507,prsc:2|A-344-RGB,B-3926-XYZ,C-9809-OUT,D-4988-OUT;n:type:ShaderForge.SFN_Lerp,id:3305,x:32755,y:32704,varname:node_3305,prsc:2|A-7910-OUT,B-6276-OUT,T-8281-OUT;n:type:ShaderForge.SFN_Set,id:4261,x:32324,y:32718,varname:BaseColor,prsc:2|IN-7442-OUT;n:type:ShaderForge.SFN_Set,id:9308,x:32682,y:33534,varname:OffsetInfo,prsc:2|IN-344-RGB;n:type:ShaderForge.SFN_Get,id:8281,x:32501,y:32809,varname:node_8281,prsc:2|IN-9308-OUT;n:type:ShaderForge.SFN_Tex2d,id:1993,x:31612,y:33081,ptovrint:False,ptlb:Texure to Lerp,ptin:_TexuretoLerp,varname:node_1993,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:a600d23657f79b14fa48d64fb9534252,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Set,id:2358,x:32115,y:33136,varname:Info_Lerp,prsc:2|IN-3283-OUT;n:type:ShaderForge.SFN_Tex2d,id:3903,x:32401,y:33416,ptovrint:False,ptlb:Normal Lerp,ptin:_NormalLerp,varname:node_3903,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:7b992a4389e056041ab18527547246b9,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Lerp,id:6550,x:32844,y:33242,varname:node_6550,prsc:2|A-4072-RGB,B-3903-RGB,T-9166-OUT;n:type:ShaderForge.SFN_Get,id:9166,x:32727,y:33402,varname:node_9166,prsc:2|IN-9308-OUT;n:type:ShaderForge.SFN_Multiply,id:3283,x:31881,y:33190,varname:node_3283,prsc:2|A-1993-RGB,B-3172-OUT;n:type:ShaderForge.SFN_Slider,id:3172,x:31533,y:33310,ptovrint:False,ptlb:Instensty_Lerp,ptin:_Instensty_Lerp,varname:node_3172,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:1,cur:1,max:2;n:type:ShaderForge.SFN_Get,id:6276,x:32530,y:32720,varname:node_6276,prsc:2|IN-2358-OUT;n:type:ShaderForge.SFN_Get,id:7910,x:32528,y:32660,varname:node_7910,prsc:2|IN-4261-OUT;proporder:2899-5263-3239-4176-4072-344-3926-9809-1993-3903-3172;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,cmtg:SF,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,acwp:False,coma:15,ufog:False,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:3138,x:33142,y:33021,varname:node_3138,prsc:2|diff-7157-OUT,spec-3239-OUT,gloss-4176-OUT,normal-9335-OUT,voffset-507-OUT;n:type:ShaderForge.SFN_Tex2d,id:2899,x:31910,y:32616,ptovrint:False,ptlb:Base Color,ptin:_BaseColor,varname:node_2899,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Color,id:5263,x:31910,y:32804,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_5263,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_Multiply,id:7442,x:32140,y:32718,varname:node_7442,prsc:2|A-2899-RGB,B-5263-RGB;n:type:ShaderForge.SFN_Slider,id:3239,x:32663,y:33009,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_3239,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.01709402,max:1;n:type:ShaderForge.SFN_Slider,id:4176,x:32663,y:33109,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:node_4176,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.02564103,max:1;n:type:ShaderForge.SFN_Tex2d,id:4072,x:32354,y:33562,ptovrint:False,ptlb:Normal Map,ptin:_NormalMap,varname:node_4072,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Tex2d,id:344,x:32354,y:33744,ptovrint:False,ptlb:Offset Buffer,ptin:_OffsetBuffer,varname:node_344,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Vector4Property,id:3926,x:32354,y:33916,ptovrint:False,ptlb:Offset Direction,ptin:_OffsetDirection,varname:node_3926,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:1,v3:0,v4:0;n:type:ShaderForge.SFN_Slider,id:9809,x:32293,y:34089,ptovrint:False,ptlb:Offset Intensity,ptin:_OffsetIntensity,varname:node_9809,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:2;n:type:ShaderForge.SFN_NormalVector,id:4988,x:32491,y:34171,prsc:2,pt:False;n:type:ShaderForge.SFN_Multiply,id:507,x:32718,y:33954,varname:node_507,prsc:2|A-344-RGB,B-3926-XYZ,C-9809-OUT,D-4988-OUT;n:type:ShaderForge.SFN_Set,id:4261,x:32324,y:32718,varname:BaseColor,prsc:2|IN-7442-OUT;n:type:ShaderForge.SFN_Set,id:9308,x:32718,y:33899,varname:OffsetInfo,prsc:2|IN-344-RGB;n:type:ShaderForge.SFN_Get,id:8281,x:32604,y:32664,varname:node_8281,prsc:2|IN-9308-OUT;n:type:ShaderForge.SFN_Tex2d,id:1993,x:32257,y:33082,ptovrint:False,ptlb:Texure to Lerp,ptin:_TexuretoLerp,varname:node_1993,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:a600d23657f79b14fa48d64fb9534252,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Set,id:2358,x:32455,y:33082,varname:Info_Lerp,prsc:2|IN-1993-RGB;n:type:ShaderForge.SFN_Tex2d,id:3903,x:32347,y:33273,ptovrint:False,ptlb:Normal Lerp,ptin:_NormalLerp,varname:node_3903,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:7b992a4389e056041ab18527547246b9,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Get,id:9166,x:32473,y:33178,varname:node_9166,prsc:2|IN-9308-OUT;n:type:ShaderForge.SFN_Get,id:6276,x:32294,y:32780,varname:node_6276,prsc:2|IN-2358-OUT;n:type:ShaderForge.SFN_Get,id:7910,x:32321,y:32984,varname:node_7910,prsc:2|IN-4261-OUT;n:type:ShaderForge.SFN_If,id:7157,x:32851,y:32725,varname:node_7157,prsc:2|A-8281-OUT,B-9438-OUT,GT-6276-OUT,EQ-6437-OUT,LT-7910-OUT;n:type:ShaderForge.SFN_Slider,id:237,x:31961,y:32429,ptovrint:False,ptlb:Tolerancia,ptin:_Tolerancia,varname:node_237,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.8892525,max:1;n:type:ShaderForge.SFN_If,id:9335,x:32935,y:33271,varname:node_9335,prsc:2|A-9166-OUT,B-5412-OUT,GT-3903-RGB,EQ-5981-OUT,LT-4072-RGB;n:type:ShaderForge.SFN_Set,id:749,x:32249,y:32528,varname:ToleranciaLerp,prsc:2|IN-237-OUT;n:type:ShaderForge.SFN_Get,id:9438,x:32604,y:32725,varname:node_9438,prsc:2|IN-749-OUT;n:type:ShaderForge.SFN_Get,id:5412,x:32473,y:33233,varname:node_5412,prsc:2|IN-749-OUT;n:type:ShaderForge.SFN_Lerp,id:6437,x:32519,y:32807,varname:node_6437,prsc:2|A-6276-OUT,B-7910-OUT,T-2913-OUT;n:type:ShaderForge.SFN_Vector1,id:2913,x:32282,y:32904,varname:node_2913,prsc:2,v1:0.5;n:type:ShaderForge.SFN_Lerp,id:5981,x:32588,y:33336,varname:node_5981,prsc:2|A-3903-RGB,B-4072-RGB,T-323-OUT;n:type:ShaderForge.SFN_Vector1,id:323,x:32347,y:33480,varname:node_323,prsc:2,v1:0.5;proporder:2899-5263-3239-4176-4072-344-3926-9809-1993-3903-237;pass:END;sub:END;*/
 
 Shader "Adal/BugsBuny" {
     Properties {
@@ -15,7 +15,7 @@ Shader "Adal/BugsBuny" {
         _OffsetIntensity ("Offset Intensity", Range(0, 2)) = 0.5
         _TexuretoLerp ("Texure to Lerp", 2D) = "white" {}
         _NormalLerp ("Normal Lerp", 2D) = "bump" {}
-        _Instensty_Lerp ("Instensty_Lerp", Range(1, 2)) = 1
+        _Tolerancia ("Tolerancia", Range(0, 1)) = 0.8892525
     }
     SubShader {
         Tags {
@@ -52,7 +52,7 @@ Shader "Adal/BugsBuny" {
             uniform float _OffsetIntensity;
             uniform sampler2D _TexuretoLerp; uniform float4 _TexuretoLerp_ST;
             uniform sampler2D _NormalLerp; uniform float4 _NormalLerp_ST;
-            uniform float _Instensty_Lerp;
+            uniform float _Tolerancia;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -86,11 +86,14 @@ Shader "Adal/BugsBuny" {
                 i.normalDir = normalize(i.normalDir);
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
-                float3 _NormalMap_var = UnpackNormal(tex2D(_NormalMap,TRANSFORM_TEX(i.uv0, _NormalMap)));
-                float3 _NormalLerp_var = UnpackNormal(tex2D(_NormalLerp,TRANSFORM_TEX(i.uv0, _NormalLerp)));
                 float4 _OffsetBuffer_var = tex2D(_OffsetBuffer,TRANSFORM_TEX(i.uv0, _OffsetBuffer));
                 float3 OffsetInfo = _OffsetBuffer_var.rgb;
-                float3 normalLocal = lerp(_NormalMap_var.rgb,_NormalLerp_var.rgb,OffsetInfo);
+                float ToleranciaLerp = _Tolerancia;
+                float node_9335_if_leA = step(OffsetInfo,ToleranciaLerp);
+                float node_9335_if_leB = step(ToleranciaLerp,OffsetInfo);
+                float3 _NormalMap_var = UnpackNormal(tex2D(_NormalMap,TRANSFORM_TEX(i.uv0, _NormalMap)));
+                float3 _NormalLerp_var = UnpackNormal(tex2D(_NormalLerp,TRANSFORM_TEX(i.uv0, _NormalLerp)));
+                float3 normalLocal = lerp((node_9335_if_leA*_NormalMap_var.rgb)+(node_9335_if_leB*_NormalLerp_var.rgb),lerp(_NormalLerp_var.rgb,_NormalMap_var.rgb,0.5),node_9335_if_leA*node_9335_if_leB);
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
@@ -128,11 +131,15 @@ Shader "Adal/BugsBuny" {
                 float LdotH = saturate(dot(lightDirection, halfDirection));
                 float3 specularColor = _Metallic;
                 float specularMonochrome;
+                float node_7157_if_leA = step(OffsetInfo,ToleranciaLerp);
+                float node_7157_if_leB = step(ToleranciaLerp,OffsetInfo);
                 float4 _BaseColor_var = tex2D(_BaseColor,TRANSFORM_TEX(i.uv0, _BaseColor));
                 float3 BaseColor = (_BaseColor_var.rgb*_Color.rgb);
+                float3 node_7910 = BaseColor;
                 float4 _TexuretoLerp_var = tex2D(_TexuretoLerp,TRANSFORM_TEX(i.uv0, _TexuretoLerp));
-                float3 Info_Lerp = (_TexuretoLerp_var.rgb*_Instensty_Lerp);
-                float3 diffuseColor = lerp(BaseColor,Info_Lerp,OffsetInfo); // Need this for specular when using metallic
+                float3 Info_Lerp = _TexuretoLerp_var.rgb;
+                float3 node_6276 = Info_Lerp;
+                float3 diffuseColor = lerp((node_7157_if_leA*node_7910)+(node_7157_if_leB*node_6276),lerp(node_6276,node_7910,0.5),node_7157_if_leA*node_7157_if_leB); // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
@@ -197,7 +204,7 @@ Shader "Adal/BugsBuny" {
             uniform float _OffsetIntensity;
             uniform sampler2D _TexuretoLerp; uniform float4 _TexuretoLerp_ST;
             uniform sampler2D _NormalLerp; uniform float4 _NormalLerp_ST;
-            uniform float _Instensty_Lerp;
+            uniform float _Tolerancia;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -231,11 +238,14 @@ Shader "Adal/BugsBuny" {
                 i.normalDir = normalize(i.normalDir);
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
-                float3 _NormalMap_var = UnpackNormal(tex2D(_NormalMap,TRANSFORM_TEX(i.uv0, _NormalMap)));
-                float3 _NormalLerp_var = UnpackNormal(tex2D(_NormalLerp,TRANSFORM_TEX(i.uv0, _NormalLerp)));
                 float4 _OffsetBuffer_var = tex2D(_OffsetBuffer,TRANSFORM_TEX(i.uv0, _OffsetBuffer));
                 float3 OffsetInfo = _OffsetBuffer_var.rgb;
-                float3 normalLocal = lerp(_NormalMap_var.rgb,_NormalLerp_var.rgb,OffsetInfo);
+                float ToleranciaLerp = _Tolerancia;
+                float node_9335_if_leA = step(OffsetInfo,ToleranciaLerp);
+                float node_9335_if_leB = step(ToleranciaLerp,OffsetInfo);
+                float3 _NormalMap_var = UnpackNormal(tex2D(_NormalMap,TRANSFORM_TEX(i.uv0, _NormalMap)));
+                float3 _NormalLerp_var = UnpackNormal(tex2D(_NormalLerp,TRANSFORM_TEX(i.uv0, _NormalLerp)));
+                float3 normalLocal = lerp((node_9335_if_leA*_NormalMap_var.rgb)+(node_9335_if_leB*_NormalLerp_var.rgb),lerp(_NormalLerp_var.rgb,_NormalMap_var.rgb,0.5),node_9335_if_leA*node_9335_if_leB);
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
                 float3 lightColor = _LightColor0.rgb;
@@ -255,11 +265,15 @@ Shader "Adal/BugsBuny" {
                 float LdotH = saturate(dot(lightDirection, halfDirection));
                 float3 specularColor = _Metallic;
                 float specularMonochrome;
+                float node_7157_if_leA = step(OffsetInfo,ToleranciaLerp);
+                float node_7157_if_leB = step(ToleranciaLerp,OffsetInfo);
                 float4 _BaseColor_var = tex2D(_BaseColor,TRANSFORM_TEX(i.uv0, _BaseColor));
                 float3 BaseColor = (_BaseColor_var.rgb*_Color.rgb);
+                float3 node_7910 = BaseColor;
                 float4 _TexuretoLerp_var = tex2D(_TexuretoLerp,TRANSFORM_TEX(i.uv0, _TexuretoLerp));
-                float3 Info_Lerp = (_TexuretoLerp_var.rgb*_Instensty_Lerp);
-                float3 diffuseColor = lerp(BaseColor,Info_Lerp,OffsetInfo); // Need this for specular when using metallic
+                float3 Info_Lerp = _TexuretoLerp_var.rgb;
+                float3 node_6276 = Info_Lerp;
+                float3 diffuseColor = lerp((node_7157_if_leA*node_7910)+(node_7157_if_leB*node_6276),lerp(node_6276,node_7910,0.5),node_7157_if_leA*node_7157_if_leB); // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
